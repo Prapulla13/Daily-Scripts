@@ -36,3 +36,11 @@ return ele * ele;
 
 console.log('Original Array:',array);
 console.log('Square Array:',sq_arr);
+
+//reduce(function(acc,ele){code})
+
+var arr = [1,2,3,4,5]
+var sum = arr.reduce(function(acc,ele){
+    return ele + acc;
+},0);
+console.log('Sum is:',sum)
